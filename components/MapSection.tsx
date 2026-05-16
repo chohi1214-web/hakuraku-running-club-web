@@ -23,7 +23,7 @@ export default function MapSection() {
         <Reveal>
           <div className="animated-grid relative h-[340px] overflow-hidden rounded-3xl border border-slate-100 bg-white p-5">
             <div className="absolute left-8 top-8 rounded-full bg-white px-3 py-2 text-xs font-medium text-slate-600 shadow-soft">
-              Tokyo Running Layer
+              Hakuraku Running Layer
             </div>
             <svg viewBox="0 0 500 300" className="h-full w-full">
               <path

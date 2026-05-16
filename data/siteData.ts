@@ -7,7 +7,8 @@ import {
   FaStar,
   FaLocationDot,
   FaRoute,
-  FaCameraRetro
+  FaCameraRetro,
+  FaBolt
 } from "react-icons/fa6";
 import {
   Activity,
@@ -20,25 +21,25 @@ import {
 
 export const testimonials: Testimonial[] = [
   {
-    name: "Miki",
+    name: "Ai",
     quote: "運動不足が解消された！",
     rating: 5,
     icon: FaPersonRunning
   },
   {
-    name: "Sho",
+    name: "Ao",
     quote: "友達が増えた！",
     rating: 5,
     icon: FaPeopleGroup
   },
   {
-    name: "Rina",
-    quote: "夜ランが最高！",
+    name: "Kazuki",
+    quote: "黒いは強い，だから僕は強い",
     rating: 4,
-    icon: FaMoon
+    icon: FaBolt
   },
   {
-    name: "Kota",
+    name: "Toua",
     quote: "ラーメン目的で参加してます",
     rating: 5,
     icon: FaBowlFood

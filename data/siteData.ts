@@ -28,14 +28,14 @@ export const testimonials: Testimonial[] = [
   },
   {
     name: "Ao",
-    quote: "友達が増えた！",
+    quote: "風が気持ちいい！",
     rating: 5,
     icon: FaPeopleGroup
   },
   {
     name: "Kazuki",
     quote: "黒いは強い，だから僕は強い",
-    rating: 4,
+    rating: 8,
     icon: FaBolt
   },
   {
@@ -49,7 +49,7 @@ export const testimonials: Testimonial[] = [
 export const satisfactionMetrics: SatisfactionMetric[] = [
   { label: "満足度", value: 98, colorClass: "from-accent-500 to-accent-300" },
   { label: "継続率", value: 92, colorClass: "from-sky-500 to-cyan-300" },
-  { label: "ラーメン率", value: 100, colorClass: "from-orange-500 to-amber-300" }
+  { label: "ラーメン率", value: 3, colorClass: "from-orange-500 to-amber-300" }
 ];
 
 export const activities: Activity[] = [

@@ -38,6 +38,6 @@ export type RamenShop = {
 
 export type GoodsItem = {
   name: string;
-  image: string;
+  images: string[];
   description: string;
 };

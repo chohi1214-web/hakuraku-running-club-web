@@ -14,7 +14,7 @@ export default function MapSection() {
       <SectionTitle
         eyebrow="Map"
         title="ランニングマップ"
-        sectionCode="04"
+        sectionCode="02"
         subtitle="Recommended Spots"
         description="おすすめランニングコース、集合場所、夜景スポットをひと目で。Google Maps風の見やすさを意識しました。"
       />

@@ -6,7 +6,7 @@ export default function FinalCtaSection() {
     <section className="section-shell pt-8">
       <Reveal>
         <div className="glass-card overflow-hidden px-6 py-12 text-center sm:px-10 sm:py-16">
-          <p className="text-xs uppercase tracking-[0.25em] text-slate-400">08 - Join Us</p>
+          <p className="text-xs uppercase tracking-[0.25em] text-slate-400">06 - Join Us</p>
           <h2 className="mt-3 text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl">走ろう、みんなで。</h2>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base">
             レベルは関係ない。走る理由も、ペースも自由。

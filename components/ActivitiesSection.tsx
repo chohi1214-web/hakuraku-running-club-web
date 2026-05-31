@@ -8,7 +8,7 @@ export default function ActivitiesSection() {
       <SectionTitle
         eyebrow="Record"
         title="活動記録"
-        sectionCode="03"
+        sectionCode="01"
         subtitle="What We Do"
         description="日付・距離・写真で残すランログ。次の参加イメージがしやすい、ブログカード風UIです。"
       />

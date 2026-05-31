@@ -18,14 +18,14 @@ export default function Home() {
       <main>
         <HeroSection />
         <MarqueeBand />
+        <ActivitiesSection />
+        {/* <MapSection /> */}
+        {/* <RamenSection /> */}
+        <GoodsSection />
+        <MarqueeBand />
+        <InstagramSection />
         <TestimonialsSection />
         <SatisfactionSection />
-        <ActivitiesSection />
-        <MarqueeBand />
-        <MapSection />
-        <RamenSection />
-        <GoodsSection />
-        <InstagramSection />
         <FinalCtaSection />
       </main>
       <Footer />

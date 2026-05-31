@@ -10,7 +10,7 @@ export default function TestimonialsSection() {
       <SectionTitle
         eyebrow="Voice"
         title="お客様の声"
-        sectionCode="01"
+        sectionCode="04"
         subtitle="Community Voice"
         description="走る理由は人それぞれ。でも、楽しいから続く。そんなリアルな声を集めました。"
       />
@@ -25,13 +25,10 @@ export default function TestimonialsSection() {
                   <Icon size={18} />
                 </div>
                 <p className="text-base font-medium leading-relaxed text-slate-800">{item.quote}</p>
-                <div className="mt-5 flex items-center justify-between">
-                  <span className="text-sm text-slate-500">{item.name}</span>
-                  <div className="flex items-center gap-1 text-amber-400">
+                <div className="mt-5 flex items-center text-amber-400">
                     {Array.from({ length: item.rating }).map((_, i) => (
                       <Star key={`${item.name}-${i}`} size={14} />
                     ))}
-                  </div>
                 </div>
               </article>
             </Reveal>

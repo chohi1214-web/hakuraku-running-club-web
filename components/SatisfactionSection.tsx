@@ -13,7 +13,7 @@ export default function SatisfactionSection() {
       <SectionTitle
         eyebrow="Satisfaction"
         title="満足度"
-        sectionCode="02"
+        sectionCode="05"
         subtitle="How Happy We Are"
         description="参加メンバーの継続率と満足度は毎シーズン更新。数字以上に、雰囲気の良さが好評です。"
       />

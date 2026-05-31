@@ -9,7 +9,7 @@ export default function InstagramSection() {
       <SectionTitle
         eyebrow="Social"
         title="Instagramリンク"
-        sectionCode="07"
+        sectionCode="03"
         subtitle="Our Atmosphere"
         description="最新の活動写真やストーリーをチェック。参加前にクラブの空気感がわかります。"
       />

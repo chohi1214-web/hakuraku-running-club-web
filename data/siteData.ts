@@ -131,24 +131,39 @@ export const ramenShops: RamenShop[] = [
 export const goods: GoodsItem[] = [
   {
     name: "クラブTシャツ",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80",
+    images: [
+      "/Image/TShirt.png",
+      "/Image/TShirtDefault.png"
+    ],
     description: "吸汗速乾で普段着にも使えるミニマルデザイン"
   },
-  {
-    name: "ランニングタオル",
-    image: "https://images.unsplash.com/photo-1617957743098-6619a16ddad6?auto=format&fit=crop&w=1200&q=80",
-    description: "首に巻きやすい薄さと、さわやかなカラーリング"
-  },
-  {
-    name: "シューズ",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80",
-    description: "初心者にも扱いやすいクッション重視モデル"
-  },
-  {
-    name: "ステッカー",
-    image: "https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=1200&q=80",
-    description: "PCにもボトルにも貼れる遊び心ある限定デザイン"
-  }
+  // {
+  //   name: "ランニングタオル",
+  //   images: [
+  //     "https://images.unsplash.com/photo-1617957743098-6619a16ddad6?auto=format&fit=crop&w=1200&q=80",
+  //     "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80",
+  //     "https://images.unsplash.com/photo-1517404215738-15263e9f9178?auto=format&fit=crop&w=1200&q=80"
+  //   ],
+  //   description: "首に巻きやすい薄さと、さわやかなカラーリング"
+  // },
+  // {
+  //   name: "シューズ",
+  //   images: [
+  //     "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80",
+  //     "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=1200&q=80",
+  //     "https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=1200&q=80"
+  //   ],
+  //   description: "初心者にも扱いやすいクッション重視モデル"
+  // },
+  // {
+  //   name: "ステッカー",
+  //   images: [
+  //     "https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=1200&q=80",
+  //     "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+  //     "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
+  //   ],
+  //   description: "PCにもボトルにも貼れる遊び心ある限定デザイン"
+  // }
 ];
 
 export const navLinks = [

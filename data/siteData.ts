@@ -49,38 +49,38 @@ export const testimonials: Testimonial[] = [
 export const satisfactionMetrics: SatisfactionMetric[] = [
   { label: "満足度", value: 98, colorClass: "from-accent-500 to-accent-300" },
   { label: "継続率", value: 92, colorClass: "from-sky-500 to-cyan-300" },
-  { label: "ラーメン率", value: 3, colorClass: "from-orange-500 to-amber-300" }
+  // { label: "ラーメン率", value: 3, colorClass: "from-orange-500 to-amber-300" }
 ];
 
 export const activities: Activity[] = [
   {
-    title: "皇居ラン",
-    date: "2026.05.01",
+    title: "多摩川ラン",
+    date: "2026.05.16",
     distance: "8.2km",
-    image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
-    tags: ["朝活", "皇居", "初心者歓迎"]
+    image: "/Image/tamagawa.jpg",
+    tags: ["朝活", "多摩川", "初心者歓迎"]
   },
   {
-    title: "深夜横浜ラン",
-    date: "2026.04.22",
+    title: "みなとみらいラン",
+    date: "2026.05.30",
     distance: "11.4km",
-    image: "https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=1200&q=80",
-    tags: ["夜景", "港", "フォトラン"]
-  },
-  {
-    title: "雨の日耐久ラン",
-    date: "2026.04.14",
-    distance: "6.7km",
-    image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=1200&q=80",
-    tags: ["雨", "根性", "達成感"]
-  },
-  {
-    title: "ラーメン完走チャレンジ",
-    date: "2026.03.30",
-    distance: "9.5km",
-    image: "https://images.unsplash.com/photo-1557872943-16a5ac26437e?auto=format&fit=crop&w=1200&q=80",
-    tags: ["ご褒美", "グルメ", "人気"]
+    image: "/Image/minatomirai.jpg",
+    tags: ["晴天", "港", "フォトラン"]
   }
+  // {
+  //   title: "雨の日耐久ラン",
+  //   date: "2026.04.14",
+  //   distance: "6.7km",
+  //   image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=1200&q=80",
+  //   tags: ["雨", "根性", "達成感"]
+  // },
+  // {
+  //   title: "ラーメン完走チャレンジ",
+  //   date: "2026.03.30",
+  //   distance: "9.5km",
+  //   image: "https://images.unsplash.com/photo-1557872943-16a5ac26437e?auto=format&fit=crop&w=1200&q=80",
+  //   tags: ["ご褒美", "グルメ", "人気"]
+  // }
 ];
 
 export const mapSpots: Spot[] = [

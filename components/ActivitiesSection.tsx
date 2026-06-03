@@ -10,7 +10,7 @@ export default function ActivitiesSection() {
         title="活動記録"
         sectionCode="01"
         subtitle="What We Do"
-        description="日付・距離・写真で残すランログ。次の参加イメージがしやすい、ブログカード風UIです。"
+        description="日付・距離・写真で残すランログ。"
       />
 
       <div className="grid gap-6 md:grid-cols-2">
